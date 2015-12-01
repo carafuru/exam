@@ -1,0 +1,279 @@
+   49  git pull --no-edit
+   51  git add maint.html
+   52  git add main.html
+   53  git commit -m "fixed"
+   54  git pull --no-edit
+   55  git push origin master
+   57  git add main.html
+   58  git commit -m "changed body"
+   59  git pull --no-edit
+   60  git push origin master
+   61  git push origin master
+   62  git pull --no-edit
+   64  git --no-edit
+   65  git pull --no-edit
+   71  git add main.html
+   72  git status
+   73  git commit -m " added solid greeting"
+   74  git pull
+   75  git push origin master
+   77  git branch v0.1
+   78  git branch
+   79  git checkout v0.1
+   80  git branch
+   81  git push origin v0.1
+   82  git branch
+   83  git branch v0.2
+   84  git branch
+   85  git checkout v0.2
+   86  git branch
+   87  git pull --no-edit
+   88  git pull --no-edit
+   89  git push origin v0.2
+   90  git branch
+   91  git merge master
+   93  git push origin v0.2
+   94  git merge master
+   96  git add hi.html
+   97  git commit -m "hi added"
+   98  git pull --no-edit
+   99  git push origin v0.2
+  100  git merge master
+  101  git merge v0.2
+  102  git add hi.html
+  103  git commit -m "stuff more"
+  104  git pull --no-edit origin v0.2
+  105  git branch
+  106  git push origin v0.2
+  107  git merge master
+  108  git branch master
+  109  git checkout master
+  110  git merge master
+  111  git merge v0.2
+  113  git push origin master
+  115  git commit -m "hi"
+  116  git pull --no-edit
+  117  git commit -m "hi lol"
+  118  git push origin master
+  119  git branch v0.3
+  120  git branch
+  121  git checkout v0.3
+  124  git add test.html
+  125  git commit -m "test"
+  126  git push origin v0.3
+  127  git merge master
+  128  git checkout master
+  129  git merge v0.3
+  131  git push origin master
+  132  git branch 0.4
+  133  git brancg
+  134  git branch
+  135  git branch v0.4
+  136  git branch
+  140  git add 4thing.html
+  141  git commit -m "added thing"
+  142  git push origin master
+  144  git checkout v0.4
+  146  git merge master
+  148  git checkout master
+  149  git push origin v0.4
+  150  git checkout v0.4
+  151  git push origin master
+  152  git push origin v0.4
+  153  git checkout master
+  154  git branch v0.5
+  155  git push origin v0.5
+  158  git checkout v0.5
+  160  git checkout master
+  161  git checkout v0.3
+  163  git checkout master
+  165  git checkout v0.5
+  167  git checkout master
+  170  git checkout v0.5
+  172  git checkout master
+  173  git rm lastfile.html
+  175  git rm lastfile.html
+  178  git checkout v0.5
+  180  git checkout master
+  181  git add last.html
+  182  git commit -m "added last file"
+  183  git push origin master
+  185  git checkout v0.5
+  187  git merge master
+  189  git push origin v0.5
+  196  mkdir git
+  197  cp index.html ./git
+  198  cp ../index.html ./git
+  199  cd git
+  205  cp style.css ./git
+  206  cp js.js ./git
+  208  cd git
+  209  git clone https://github.com/carafuru/takehome.git
+  221  git add js img css
+  222  git commit -m "changes"
+  223  git push origin master
+  232  git status
+  234  git status
+  244  mkdir git
+  245  cp /c/users/a00869448/index.html ./git
+  246  cp /c/users/a00869448/index.html ./git/index1.html
+  247  cp /c/users/a00869448/index.html ./git/index2.html
+  248  cp /c/users/a00869448/index.html ./git/index3.html
+  250  cp style.css ./git
+  251  cp js.js ./git
+  253  cd git
+  254  git clone https://github.com/carafuru/takehome.git
+  267  git add css img js
+  268  git commit -m "stuff"
+  269  git push origin master
+  277  mkdir git
+  278  cp ../index.html ./git
+  279  cp ../index.html ./git/index1.html
+  280  cp ../index.html ./git/index2.html
+  281  cp ../index.html ./git/index3.html
+  283  cp style.css ./git
+  284  cp js.js ./git
+  286  cd git
+  287  git clone https://github.com/carafuru/takehome.git
+  290  git add js img css
+  291  git commit -m "made 3 directories"
+  298  git add js img css
+  299  git commit -m "added 3 directories"
+  300  git push origin master
+  307  git rm *.html
+  311  git status
+  313  git status
+  314  git add .
+  315  git commit -m "did stuff"
+  316  git pull --no-edit
+  317  git push origin master
+  320  git add .
+  321  git commit -m "added title"
+  322  git pull --no-edit
+  323  git push origin master
+  324  git branch v0.0.1
+  325  git checkout v0.0.1
+  326  git rm index2.html index3.html
+  327  git add .
+  328  git commit -m "removed index 2 and 3"
+  329  git push origin v0.0.1
+  331  git checkout master
+  337  cp *.png ../git/takehome/img
+  338  cp *.PNG ../git/takehome/img
+  339  git add .
+  341  cd git
+  343  git add .
+  344  git commit -m "added images"
+  345  git pull --no-edit
+  346  git push origin master
+  347  git checkout v0.0.1
+  348  git merge master
+  350  git status
+  353  git merge v0.0.1
+  354  git merge master
+  355  git add .
+  356  git commit -m "stuff"
+  357  git merge master
+  358  git push origin master
+  359  git merge master
+  360  git checkout master
+  361  git add .
+  362  git commit -m "stuff"
+  363  git push origin master
+  365  git add .
+  366  git commit -m "stuff"
+  367  git push origin master
+  375  cp *.PNG ../git/takehome/img
+  378  cd git
+  380  git add .
+  381  git commit -m "stuff"
+  382  git push origin master
+  384  git checkout v0.0.1
+  385  git merge master
+  386  git add .
+  387  git commit -m "stuff"
+  388  git push origin master
+  389  git pull --no-edit
+  390  git checkout master
+  391  git pull --no-edit
+  392  git branch v0.0.1
+  393  git checkout v0.0.1
+  394  git merge master
+  395  git merge v0.0.1
+  396  git merge master
+  397  git checkout branch
+  398  git checkout master
+  399  git merge master
+  400  git merge  v0.0.1
+  401  git add .
+  402  git commit -m "stuff"
+  403  git pull --no-edit
+  404  git push origin master
+  405  git push origin master
+  406  git add .
+  407  git commit -m "stuff"
+  408  git push origin master
+  411  git add .
+  412  git commit -m "stuff"
+  413  git push origin master
+  414  cp *.PNG ../git/takehome/img
+  420  cp *.PNG ../git/takehome/img
+  422  cd git
+  424  git add .
+  425  git commit -m "added images"
+  426  git pull --no-edit
+  427  git push origin master
+  428  git checkout v0.0.1
+  429  git merge master
+  430  git add .
+  431  git commit -m "added more stuff"
+  432  git pull --no-edit
+  433  git push origin v0.0.1
+  435  git checkout master
+  441  cp -r git backup
+  450  mv images.txt ./git/takehome
+  451  mv html.txt ./git/takehome
+  452  cd git
+  454  git add .
+  455  git commit -m "added stuff"
+  456  git pull --no-edit
+  457  git push origin master
+  479  mkdir git
+  480  cd git
+  481  git clone https://github.com/carafuru/exam.git
+  482  cp -r /c/users/a00869448/documents/exam /c/users/a00869448/desktop/git/exam
+  493  git add .
+  494  git commit -m "things"
+  495  git push origin master
+  505  cd git
+  507  git branch v2.0
+  508  git checkout v2.0
+  509  git merge master
+  510  git add .
+  511  git commit -m "made new branch"
+  512  git push origin master
+  513  git add .
+  514  git commit -m "added new branch"
+  515  git push origin v2.0
+  516  git checkout master
+  521  git add .
+  522  git commit -m "edited index.html"
+  523  git push origin master
+  524  git checkout v2.0
+  525  git merge master
+  526  git add .
+  527  git commit -m "merged branch with master"
+  528  git push origin v2.0
+  530  git branch v3.0
+  531  git checkout v3.0
+  532  git add .
+  533  git commit -m "added new branch"
+  534  git push origin v3.0
+  535  git checkout master
+  538  git add .
+  539  git commit -m "edited index"
+  540  git push origin master
+  541  git checkout v3.0
+  542  git merge master
+  544  git checkout master
+  548  history | grep "git" > history.txt
